@@ -6,31 +6,31 @@ function Header() {
       <Logo src="/images/logo.svg" />
       <NavMenu>
         <a>
-          <img src="/images/home-icon.svg"></img>
+          <img src="/images/home-icon.svg" alt="home-icon"></img>
           <span>HOME</span>
         </a>
         <a>
-          <img src="/images/search-icon.svg"></img>
+          <img src="/images/search-icon.svg" alt="search-icon"></img>
           <span>SEARCH</span>
         </a>
         <a>
-          <img src="/images/watchlist-icon.svg"></img>
+          <img src="/images/watchlist-icon.svg" alt="watchlist"></img>
           <span>WATCHLIST</span>
         </a>
         <a>
-          <img src="/images/original-icon.svg"></img>
+          <img src="/images/original-icon.svg" alt="original"></img>
           <span>ORIGINALS</span>
         </a>
         <a>
-          <img src="/images/movie-icon.svg"></img>
+          <img src="/images/movie-icon.svg" alt="movie"></img>
           <span>MOVIES</span>
         </a>
         <a>
-          <img src="/images/series-icon.svg"></img>
+          <img src="/images/series-icon.svg" alt="series"></img>
           <span>SERIES</span>
         </a>
       </NavMenu>
-      <UserImg src="/images/favicon.svg"></UserImg>
+      <UserImg src="/images/favicon.svg" alt="user-img"></UserImg>
     </Nav>
   );
 }
